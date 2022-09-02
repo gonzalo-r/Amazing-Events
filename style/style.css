@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    
+}
+
+#logo{
+    height: 40%;
+    width: 20%;
+
+}
+
+.contenedorCards{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap; 
+    margin-top: 2rem;
+    
+    
+
+}
+.contenedorCards img{
+    height:40%!important;
+}
+.card{
+    margin: 0.5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(https://media.revistagq.com/photos/5d495192c6189900081ff0f6/master/pass/ed%20sheeran.%20record%20u2%20conciertos.jpg);
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+   
+}
+
+
+.filtro{
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 1rem 1rem;   
+}
+
+ 
+.navsecundario{
+   
+    display: flex;
+    justify-content: center;
+   
+}
+
+.detalle{
+    display: flex;
+    height: 60vh;
+    width: 60vw;
+    justify-content: center;
+}
+
+#nav2{
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+#nav2 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+.img-logo{
+    height: 20px;
+}
+
+table{
+    margin: 0.5rem 0.5rem;
+    
+}
+
+td , th{
+    border: 0.1rem solid black !important;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column !important;
+    height: 300px !important; 
+}
+
+.formcontact label{
+    margin: 1rem 1rem;
+    display: flex;
+    width: 30rem;
+}
+
+.submit{
+    margin: 0.5rem;
+}
